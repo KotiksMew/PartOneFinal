@@ -6,7 +6,7 @@
 string[] baseArray = { "Sun", "Monday", "Tuersday","Wed", "Thirsday", "Fri", "Sat","1","12","123","1234" };
 int count=0;
 // Вывод начального массива строк baseArray
-Console.WriteLine("["+string.Join(", ",baseArray)+"]");
+printArray(baseArray);
 
 string[] createFinalArray(string[] baseArray)
 {
